@@ -1,0 +1,139 @@
+#mainDealsDiv{
+    width: 80%;
+    margin-left: 10%;
+    margin-top: 10vh;
+    height: auto;
+    background-image: url('./background1.jpg'); 
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color: rgb(3, 51, 3);
+    @media (0<width<600px) {
+        width: 100%;
+        height: auto;
+        margin-top: 10vw;
+        margin-left: 0%;
+    }
+}
+
+#mainDiv{
+    width: 80vw;
+    height: 60vh;
+    background-color: rgba(120, 169, 120, 0.616);
+    display: flex;
+    justify-content: center;    
+    @media (0<width<600px) {
+        height: auto;
+        width: 100%;
+    }
+}
+
+#leftDiv{
+    width: 45vw;
+    height: 60vh;
+    margin-left: 5vw;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    font-family: 'Times New Roman', Times, serif;
+    @media (0<width<600px) {
+        width: 40%;
+        height: auto;
+    }
+}
+
+#leftTop{
+    width: 45vw;
+    height: 30vh;
+    @media (0<width<600px) {
+        width: 100%;
+        height: auto;
+    }
+}
+
+#leftTop h1{
+    font-size: 45px;
+    @media (0<width<600px) {
+        font-size: 35px;
+    }
+}
+
+#leftMid{
+    width: 30vw;
+    height: 15vh;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    @media (0<width<600px) {
+        width: 100%;
+    }
+}
+
+#box{
+    width: 9vw;
+    height: 15vh;
+    background-color: rgba(31, 107, 31, 0.979);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    line-height: 0;
+    @media (0<width<600px) {
+        width: 13vw;
+        height: 70%;
+    }
+}
+
+#box h1{
+    font-size: 45px;
+    color: rgba(255, 255, 255, 0.856);
+    @media (0<width<600px) {
+        font-size: 30px;
+    }
+}
+
+#box h3{
+    color: rgba(255, 255, 255, 0.856);    
+}
+
+#leftBottom{
+    width: 45vw;
+    height: 15vh;
+}
+
+#leftBottom button{
+    width: 200px;
+    height: 45px;
+    background-color: rgba(31, 107, 31, 0.979);
+    border: 1px solid rgba(31, 107, 31, 0.979);
+    color: white;
+    font-weight: bold;
+    margin-top: 4vh;
+    @media (0<width<600px) {
+        width: 75vw;
+        margin-top: 0vw;
+
+    }
+}
+
+#rightDiv{
+    width: 36vw;
+    height: 60vh;
+    display: flex;
+    justify-content: center;
+}
+
+#rightDiv img{
+    width: 22vw;
+    height: 60vh;
+    border-top-left-radius: 25%;
+    border-bottom-right-radius: 25%;
+    @media (0<width<600px) {
+        width: 90%;
+        height: 60%;
+        margin-top: 40px;
+    }
+}

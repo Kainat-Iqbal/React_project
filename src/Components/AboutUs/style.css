@@ -1,0 +1,90 @@
+*{
+    color: rgb(3, 51, 3);
+}
+
+#mainAboutDiv{
+    width: 100vw;
+    height: auto;
+    margin-top: 10vh;
+    @media (0<width<600px) {
+        width: 100%;
+        margin-top: 10vw;
+    }
+}
+
+#topDiv{
+    height: 20vh;
+    width: 100vw;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: center;
+    font-family: 'Times New Roman', Times, serif;
+    @media (0<width<600px) {
+        width: 100%;
+        height: auto;
+    }
+}
+
+#topDiv h1{
+    @media (0<width<600px) {
+        width: 100%;
+        font-size: 8vw;
+        margin-left: 1vw;
+    }
+}
+
+#topDiv h3{
+    margin-top: -5px;
+    text-align: center;
+    @media (0<width<600px) {
+        width: 100%;
+        text-align: start;
+        margin-left: 1vw;
+    }
+}
+
+#aboutCard{
+    width: 32vw;
+    height: 40vh;
+    background-color: beige;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    overflow: auto;
+    align-items: center;
+    line-height: 1.2;
+    @media (0<width<600px) {
+        width: 100%;
+    }
+}
+
+#title{
+    font-weight: bold;
+    text-align: center;
+}
+
+#text{
+    margin-top: -10px;
+    text-align: center;
+}
+
+#name{
+    font-weight: bold;
+    margin-top: 0px;
+}
+
+#aboutCard img{
+    width: 5vw;
+    height: 10vh;
+    border-radius: 50%;
+    @media (0<width<600px) {
+        width: 25%;
+    }
+}
+
+#crousel{
+    @media (0<width<600px) {
+        margin-top: -20vh;
+    }
+}
